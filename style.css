@@ -1,181 +1,297 @@
      html {
-            scroll-behavior: smooth;
-        }
+         scroll-behavior: smooth;
+     }
 
 
-        * {
-            margin: 0;
-            padding: 0;
-        }
+     * {
+         margin: 0;
+         padding: 0;
+     }
 
 
-        body {
-            background-color: #0d0e0e;
-            color: white;
-            font-family: "Poppins", sans-serif;
+     body {
+         background-color: #0d0e0e;
+         color: white;
+         font-family: "Poppins", sans-serif;
 
-        }
+     }
 
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 65px;
-            background-color: #151718;
-        }
+     nav {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         height: 65px;
+         background-color: #151718;
+     }
 
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
+     nav ul {
+         display: flex;
+         justify-content: center;
+     }
 
-        nav ul li {
-            list-style: none;
-            margin: 0 23px;
+     nav ul li {
+         list-style: none;
+         margin: 0 23px;
 
-        }
+     }
 
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
+     nav ul li a {
+         text-decoration: none;
+         color: white;
+     }
 
-        nav ul li a:hover {
-            color: rgb(128, 127, 127);
-            font-size: 18px;
-        }
+     nav ul li a:hover {
+         color: rgb(128, 127, 127);
+         font-size: 18px;
+     }
 
-        .left {
-            padding-left: 20px;
-            font-size: 32px
-        }
+     .left {
+         padding-left: 20px;
+         font-size: 32px
+     }
 
-        .firstSection {
-            display: flex;
+     .firstSection {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         margin: 23px 0;
+     }
 
-            justify-content: space-around;
-            margin: 23px 0;
-        }
-
-        .LeftSection {
-            width: 40%;
-            margin: 130px 0;
-            font-size: 40px
-        }
-
-
-        .credcolor {
-            color: #495057;
-        }
-
-        #element {
-            color: #495057;
-        }
-
-        .partitionline {
-            border: 0;
-            background: rgb(128, 127, 127);
-            height: 2.5px;
-            margin: 30px 34px
-        }
-
-        .secondptitle {
-            text-align: center;
-            font-size: 30px;
-        }
-
-        .titletop {
-            text-align: center;
-            font-style: italic;
-            color: rgb(128, 127, 127);
-            margin: 0;
-
-        }
-
-        .para {
-            text-align: center;
-            padding: 80px;
-            padding-top: 10px;
-            font-size: 25px;
-
-        }
+     .LeftSection {
+         width: 40%;
+         margin: 130px 0;
+         font-size: 40px
+     }
 
 
-        .threetitle {
-            text-align: center;
-            font-size: 30px;
+     .credcolor {
+         color: #495057;
+     }
 
-        }
+     #element {
+         color: #495057;
+     }
 
-        .threehalf {
-            display: flex;
-            justify-content: space-around;
-            margin: 23px 0;
-        }
+     .partitionline {
+         border: 0;
+         background: rgb(128, 127, 127);
+         height: 2.5px;
+         margin: 30px 34px
+     }
 
-        .LeftthreeSection {
-            width: 60%;
-        }
+     .secondptitle {
+         text-align: center;
+         font-size: 30px;
+     }
 
-        .RightthreeSection {
-            width: 40%;
-        }
+     .titletop {
+         text-align: center;
+         font-style: italic;
+         color: rgb(128, 127, 127);
+         margin: 0;
 
-        .semititle {
-            padding-left: 100px;
-            font-size: 40px;
-        }
+     }
 
-        .semipara {
-            padding-left: 100px;
-            font-size: 25px;
-            font-style: italic;
-            padding-bottom: 100px;
-        }
+     .para {
+         text-align: center;
+         padding: 80px;
+         padding-top: 10px;
+         font-size: 25px;
 
-        .videoe {
-            padding-left: 200px;
-        }
-
-        .photu {
-            padding-left: 100px;
-            padding-top: 50px;
-
-        }
-
-        .blendervideoe {
-            padding-top: 50px;
-            padding-left: 50px;
-        }
-
-        .WDvideoe {
-            padding-top: 50px;
-            padding-left: 50px;
-        }
-
-        .idkphotu {
-            padding-left: 30px;
-            padding-top: 50px;
-
-        }
-
-        .fourtitle {
-            text-align: center;
-            font-size: 30px;
-        }
-
-        .footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            background-color: #151718;
-
-        }
-
-        .ending {
-            font-style: italic;
-            padding: 50px;
+     }
 
 
-        }
+     .threetitle {
+         text-align: center;
+         font-size: 30px;
+
+     }
+
+     .threehalf {
+         display: flex;
+         justify-content: space-around;
+         margin: 23px 0;
+     }
+
+     .LeftthreeSection {
+         width: 60%;
+     }
+
+     .RightthreeSection {
+         width: 40%;
+     }
+
+     .semititle {
+         padding-left: 100px;
+         font-size: 40px;
+     }
+
+     .semipara {
+         padding-left: 100px;
+         font-size: 25px;
+         font-style: italic;
+         padding-bottom: 100px;
+     }
+
+     .videoe {
+         padding-left: 200px;
+     }
+
+     .photu {
+         padding-left: 100px;
+         padding-top: 50px;
+
+     }
+
+     .blendervideoe {
+         padding-top: 50px;
+         padding-left: 50px;
+     }
+
+     .WDvideoe {
+         padding-top: 50px;
+         padding-left: 50px;
+     }
+
+     .idkphotu {
+         padding-left: 30px;
+         padding-top: 50px;
+
+     }
+
+     .fourtitle {
+         text-align: center;
+         font-size: 30px;
+     }
+
+     .footer {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+
+         background-color: #151718;
+
+     }
+
+     .ending {
+         font-style: italic;
+         padding: 50px;
+
+
+     }
+
+
+     /*this (below) whole code has been generated by chatgpt*/
+
+
+     @media (max-width: 768px) {
+
+
+         nav {
+             flex-direction: column;
+             /* stack logo and menu */
+             align-items: center;
+             height: auto;
+             padding: 10px 0;
+         }
+
+         .left {
+             font-size: 6vw;
+             /* responsive font for logo */
+             text-align: center;
+             padding: 0;
+         }
+
+         .right ul {
+             flex-direction: column;
+             /* stack menu items vertically */
+             padding: 0;
+             margin: 10px 0;
+             width: 100%;
+         }
+
+         .right ul li {
+             margin: 8px 0;
+             /* space between menu items */
+             text-align: center;
+         }
+
+         .right ul li a {
+             font-size: 5vw;
+             /* responsive font for links */
+         }
+
+
+         .firstSection {
+             flex-direction: column;
+             align-items: center;
+             margin: 20px 0;
+         }
+
+         .LeftSection {
+             width: 90%;
+             margin: 20px auto;
+             text-align: center;
+             font-size: 5vw;
+
+         }
+
+         .RightSection img {
+             width: 80%;
+             margin: 20px auto;
+             padding-left: 30px;
+         }
+
+
+         .para {
+             padding: 10px 20px;
+             font-size: 4vw;
+         }
+
+
+         .threehalf {
+             flex-direction: column;
+
+             align-items: center;
+         }
+
+         .LeftthreeSection,
+         .RightthreeSection {
+             width: 90%;
+             padding: 0;
+             margin: 10px auto;
+         }
+
+         .semititle,
+         .semipara {
+             padding-left: 0;
+             font-size: 4vw;
+         }
+
+
+         .videoe,
+         .photu,
+         .blendervideoe,
+         .WDvideoe,
+         .idkphotu {
+             padding: 10px 0;
+             text-align: center;
+         }
+
+         video,
+         img {
+             width: 90%;
+             height: auto;
+         }
+
+
+         footer {
+             flex-direction: column;
+             text-align: center;
+             padding: 20px;
+         }
+
+         .ending {
+             padding: 10px 0;
+         }
+     }
