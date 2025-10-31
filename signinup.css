@@ -1,0 +1,212 @@
+* {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #070118;
+            color: whitesmoke;
+            overflow-x: hidden;
+            overflow-y: hidden;
+
+        }
+
+        .bgimage {
+            position: absolute;
+            right: 0;
+            top: 0;
+            opacity: 0.5;
+            z-index: -999;
+        }
+
+        .gradblur {
+            height: 0;
+            width: 30rem;
+            position: absolute;
+            top: 20%;
+            right: 0;
+            box-shadow: 0 0 700px 15px white;
+            rotate: -30deg;
+            z-index: -1;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            width: 420px;
+            color: #ffffff;
+            background-color: rgb(36, 14, 36);
+            height: 450px;
+            border-radius: 25px;
+            border: 1px solid #818181;
+            background: transparent;
+            backdrop-filter: blur(20px);
+        }
+
+        .wrapper h1 {
+            font-size: 3rem;
+            align-items: center;
+            text-align: center;
+        }
+
+        .wrapper .inputs {
+
+            position: relative;
+            width: 100%;
+            height: 36px;
+            padding-top: 24px;
+            text-align: center;
+            border-color: #ffffff;
+            margin: 20px 0;
+        }
+
+        .inputs input {
+            height: 100%;
+            width: 85%;
+            background: transparent;
+            color: #ffffff;
+            border-radius: 25px;
+            margin: none;
+            border: 1px solid #3f3f3f;
+            padding: 20px 45px 20px 20px;
+        }
+
+        .inputs input::placeholder {
+            color: #ffffff;
+        }
+
+        .rememberme_forgot {
+            display: flex;
+            justify-content: space-between;
+            gap: 75px;
+            padding-top: 36px;
+            margin: 20px;
+        }
+
+        .rememberme_forgot a {
+            text-decoration: none;
+            color: rgb(139, 139, 139);
+            font-weight: 800;
+        }
+
+        .rememberme_forgot a:hover{
+            text-decoration: underline;
+            transition: 0.5s ease-in;
+        }
+
+        .register_link a {
+            text-decoration: none;
+            color: rgb(139, 139, 139);
+            font-weight: 800;
+        }
+
+        .register_link a:hover{
+            text-decoration: underline;
+            transition: 0.5s ease-in;
+        }
+
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            width: 100%;
+            height: 45px;
+            background-color: #ffffff;
+            color: #000;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #dcdcdc;
+        }
+
+        .register_link {
+            text-align: center;
+            padding-top: 24px;
+            gap: 75px;
+        }
+
+        .vroom {
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin-right: -80px;
+            margin-top: -130px;
+            z-index: -999;
+            
+        }
+
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+                overflow-y: auto;
+                padding: 20px;
+            }
+
+            .wrapper {
+                width: 100%;
+                max-width: 350px;
+                padding: 20px;
+                border-radius: 20px;
+                backdrop-filter: blur(15px);
+            }
+
+            .wrapper h1 {
+                font-size: 2rem;
+            }
+
+            .inputs input {
+                width: 100%;
+                font-size: 0.9rem;
+            }
+
+            .rememberme_forgot {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+
+            .vroom {
+                display: none;
+            }
+
+            .gradblur {
+                display: none;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .wrapper {
+                max-width: 300px;
+                padding: 15px;
+            }
+
+            .wrapper h1 {
+                font-size: 1.8rem;
+            }
+
+            button {
+                font-size: 1rem;
+                height: 40px;
+            }
+
+            .inputs input {
+                font-size: 0.85rem;
+                padding: 15px 40px 15px 15px;
+            }
+        }
